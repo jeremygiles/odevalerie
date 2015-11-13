@@ -9,6 +9,7 @@ public class Patient {
 
 	private FicheSejour fiche_sejour;
 
+	//Constructeur du patient
 	public Patient(String nom, long numSecu, String adresse, int age) {
 		this.nom = nom;
 		this.numero_secu = numSecu;
@@ -56,6 +57,7 @@ public class Patient {
 		this.fiche_sejour = fiche_sejour;
 	}
 
+	// Mise à zéro de la fiche patient
 	public void resetFiche_sejour() {
 		this.fiche_sejour = null;
 	}
