@@ -5,8 +5,9 @@ public class Specialiste {
 	private String nom;
 	private String prenom;
 
-	public Specialiste(String nom) {
+	public Specialiste(String nom, String prenom) {
 		this.nom = nom;
+		this.prenom=prenom;
 	}
 
 	public String getNom() {
