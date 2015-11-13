@@ -10,8 +10,8 @@ public class Patient {
 	private FicheSejour fiche_sejour;
 
 	//Constructeur du patient
-	public Patient(String nomPatient, long numSecu, String adresse, int age) {
-		this.nom = nomPatient;
+	public Patient(String patientNom, long numSecu, String adresse, int age) {
+		this.nom = patientNom;
 		this.numero_secu = numSecu;
 		this.adresse = adresse;
 		this.age = age;
