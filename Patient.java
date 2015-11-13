@@ -1,5 +1,5 @@
 package resources.domaine;
-
+//Class Patient
 public class Patient {
 
 	private long numero_secu;
