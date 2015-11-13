@@ -2,7 +2,8 @@ package resources.domaine;
 
 public class Specialiste {
 
-	String nom;
+	private String nom;
+	private String prenom;
 
 	public Specialiste(String nom) {
 		this.nom = nom;
@@ -14,6 +15,14 @@ public class Specialiste {
 
 	public void setNom(String nom) {
 		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return this.prenom;
+	}
+
+	public String setPrenom(String prenom) {
+		this.prenom=prenom;
 	}
 
 }
