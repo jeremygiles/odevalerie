@@ -4,10 +4,12 @@ public class Specialiste {
 
 	private String nom;
 	private String prenom;
+	private int num;
 
-	public Specialiste(String nom, String prenom) {
+	public Specialiste(String nom, String prenom,int num) {
 		this.nom = nom;
 		this.prenom=prenom;
+		this.num=num;
 	}
 
 	public String getNom() {
