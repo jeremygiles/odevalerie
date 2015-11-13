@@ -31,5 +31,8 @@ public class Specialite {
 	public void setSpecialistes(ArrayList<Specialiste> specialistes) {
 		this.specialistes = specialistes;
 	}
-
+    
+    public Specialiste firstSpecialiste() {
+        return this.specialistes.get(0);
+    }
 }
