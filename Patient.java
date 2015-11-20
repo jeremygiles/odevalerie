@@ -7,11 +7,10 @@ public class Patient {
 	private String adresse;
 	private int age;
 	
-	//Commentaire inutile
 	private FicheSejour fiche_sejour;
 
 	//Constructeur du patient
-	//grosseBranche
+	// Master
 	public Patient(String patientNom, long numSecu, String adressePatient, int age) {
 		this.nom = patientNom;
 		this.numero_secu = numSecu;
