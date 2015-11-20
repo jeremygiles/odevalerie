@@ -1,16 +1,13 @@
 package resources.domaine;
-//Class Patient
+
 public class Patient {
 
-	//Rajout du commentaire inutile :)
 	private long numero_secu;
 	private String nom;
 	private String adresse;
 	
 	private FicheSejour fiche_sejour;
 
-	//Constructeur du patient
-	// Master
 	public Patient(String patientNom, long numSecu, String adressePatient) {
 		this.nom = patientNom;
 		this.numero_secu = numSecu;
