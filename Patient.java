@@ -5,15 +5,13 @@ public class Patient {
 	private long numero_secu;
 	private String nom;
 	private String adresse;
-	private int age;
 	
 	private FicheSejour fiche_sejour;
 
-	public Patient(String patientNom, long numSecu, String adressePatient, int age) {
+	public Patient(String patientNom, long numSecu, String adressePatient) {
 		this.nom = patientNom;
 		this.numero_secu = numSecu;
 		this.adresse = adressePatient;
-		this.age = age;
 	}
 
 	public long getNumero_secu() {
@@ -38,14 +36,6 @@ public class Patient {
 
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
 	}
 
 	public FicheSejour getFiche_sejour() {
