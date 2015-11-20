@@ -2,6 +2,7 @@ package resources.domaine;
 //Class Patient
 public class Patient {
 
+	//Rajout du commentaire inutile :)
 	private long numero_secu;
 	private String nom;
 	private String adresse;
