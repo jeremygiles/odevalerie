@@ -11,6 +11,7 @@ public class Patient {
 	private FicheSejour fiche_sejour;
 
 	//Constructeur du patient
+	//grosseBranche
 	public Patient(String patientNom, long numSecu, String adressePatient, int age) {
 		this.nom = patientNom;
 		this.numero_secu = numSecu;
