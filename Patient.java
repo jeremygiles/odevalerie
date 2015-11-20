@@ -1,8 +1,7 @@
 package resources.domaine;
-//Class Patient
+
 public class Patient {
 
-	//Rajout du commentaire inutile :)
 	private long numero_secu;
 	private String nom;
 	private String adresse;
@@ -10,8 +9,6 @@ public class Patient {
 	
 	private FicheSejour fiche_sejour;
 
-	//Constructeur du patient
-	// Master
 	public Patient(String patientNom, long numSecu, String adressePatient, int age) {
 		this.nom = patientNom;
 		this.numero_secu = numSecu;
