@@ -6,7 +6,8 @@ public class Patient {
 	private String nom;
 	private String adresse;
 	private int age;
-
+	
+	//Commentaire inutile
 	private FicheSejour fiche_sejour;
 
 	//Constructeur du patient
